@@ -1,0 +1,64 @@
+[project]
+name = "ai_dev_env"
+version = "0.1.0"
+authors = ["Alejandro Castellanos <k2jac9@users.noreply.github.com>"]
+platforms = ["win-64"]
+channels = ["conda-forge"]
+
+[dependencies]
+python = "3.12.*"
+numpy = "*"
+requests = "*"
+ipykernel = "*"
+pandas = "*"
+seaborn = "*"
+scikit-learn = "*"
+python-dotenv = "*"
+dask = "*"
+pyarrow = "*"
+sacred = "*"
+sqlalchemy = "*"
+psycopg2 = "*"
+shap = "*"
+fancyimpute = "*"
+missingno = "*"
+matplotlib = "*"
+plotly = "*"
+nbformat = "*"
+scikit-image = "*"
+opencv = "*"
+transformers = "*"
+yfinance = "*"
+pygam = "*"
+pybind11 = "*"
+polars = "*" 
+h5py = "*"        
+pango = "*"
+adbc-driver-manager = "*"
+connectorx = "*"
+deltalake = "*"
+pydantic = "*"
+pyiceberg = "*"
+openpyxl = "*"
+modin = "*"
+boto3 = "*"
+google-auth = "*"
+azure-identity = "*"
+fastparquet = "*"
+duckdb = "*"
+streamlit = "*"
+cookiecutter = "*"
+
+[pypi-dependencies]
+uv = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+
+[pypi-options]
+index-url = "https://pypi.org/simple"
+# extra-index-urls = ["https://download.pytorch.org/whl/cpu"]
+
+[tasks]
+install-tensorflow = "uv pip install tensorflow-cpu==2.18.0"  # Use a stable version of TensorFlow
+

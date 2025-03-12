@@ -26,7 +26,7 @@ This project utilizes the **Body Fat Prediction dataset** from Kaggle, which con
 - `Height` – Height (in inches).
 - `Neck`, `Chest`, `Abdomen`, `Hip`, `Thigh`, `Knee`, `Ankle`, `Biceps`, `Forearm`, `Wrist` – Circumference measurements of different body parts (in inches).
 
----
+--- 
 
 ## 3️⃣ Machine Learning Solution
 💡 **Potential algorithms to use**:

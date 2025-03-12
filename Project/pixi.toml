@@ -48,6 +48,7 @@ fastparquet = "*"
 duckdb = "*"
 streamlit = "*"
 cookiecutter = "*"
+kaggle = "*"
 
 [pypi-dependencies]
 uv = "*"

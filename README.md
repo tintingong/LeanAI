@@ -12,20 +12,6 @@ This project utilizes the **Body Fat Prediction dataset** from Kaggle, which con
 - **🏆 Sports Industry**: Optimization of body composition for athletes.
 - **💰 Insurance**: Health risk analysis for premium calculation.
 
----
-
-## 2️⃣ Data
-📂 **Data Source**: [Kaggle: Body Fat Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/body-fat-prediction-dataset)  
-📊 **Format**: CSV file  
-
-### 🔢 **Features in the dataset**
-- `Density` – Body density (measured by hydrostatic weighing).
-- `BodyFat` – **Body fat percentage (target variable)**.
-- `Age` – Age.
-- `Weight` – Weight (in pounds).
-- `Height` – Height (in inches).
-- `Neck`, `Chest`, `Abdomen`, `Hip`, `Thigh`, `Knee`, `Ankle`, `Biceps`, `Forearm`, `Wrist` – Circumference measurements of different body parts (in inches).
-
 From a business perspective, using anthropometric measurements like weight, height, and waist circumference to predict body fat percentage can have several practical and profitable motivations:
 
 ### 1. Health and Fitness Industry Applications
@@ -48,28 +34,49 @@ From a business perspective, using anthropometric measurements like weight, heig
    - **Business Use Case**: Insurance companies or public health organizations could use this predictive model to assess risk profiles at scale, adjusting premiums or designing intervention programs.
    - **Value Proposition**: More accurate risk assessment reduces payouts for insurers or improves outcomes for health initiatives, saving costs long-term.
 
-### 5. Educational and Research Market
-   - **Motivation**: Simplified body fat prediction democratizes data for academic institutions, students, and researchers studying obesity trends or health metrics.
-   - **Business Use Case**: For your class project, you could pitch this as a prototype for a tool sold to universities or research labs, bundled with the Kaggle dataset and a user-friendly interface.
-   - **Value Proposition**: Affordable research tools expand market reach and support data-driven discoveries.
+---
+
+## 2️⃣ Data
+📂 **Data Source**: [Kaggle: Body Fat Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/body-fat-prediction-dataset)  
+📊 **Format**: CSV file  
+💾 **Dataset Size**: 252 samples.
+
+### 🔢 **Features in the dataset**
+- `Density` – Body density (measured by hydrostatic weighing).
+- `BodyFat` – **Body fat percentage (target variable)**.
+- `Age` – Age.
+- `Weight` – Weight (in pounds).
+- `Height` – Height (in inches).
+- `Neck`, `Chest`, `Abdomen`, `Hip`, `Thigh`, `Knee`, `Ankle`, `Biceps`, `Forearm`, `Wrist` – Circumference measurements of different body parts (in inches).
+
 
 --- 
+## 3️⃣ Methodology 
+**Exploratory Data Analysis**
+- Checked for missing values, reviewed data statistics
 
-## 3️⃣ Machine Learning Solution
+**Data Processing**
+
+**Model Development**
+- Due to small dataset size, started with simple linear regression model
+- 
+### 🛠 **Model evaluation metrics**
+- **📉 MAE (Mean Absolute Error)** – Average absolute error.
+- **📉 RMSE (Root Mean Squared Error)** – Root mean square error.
+- **📈 R² (R-squared)** – Measures how well the model explains the variance in the data.
+
+**Feature Selection**
+
+## 4️⃣ Machine Learning Solution 
 💡 **Potential algorithms to use**:
 - ✔️ **Linear Regression** (for interpretability)
 - ✔️ **Random Forest** (for high accuracy)
 - ✔️ **XGBoost** (for advanced optimization)
 - ✔️ **Neural Networks** (for complex relationships)
 
-### 🛠 **Model evaluation metrics**
-- **📉 MAE (Mean Absolute Error)** – Average absolute error.
-- **📉 RMSE (Root Mean Squared Error)** – Root mean square error.
-- **📈 R² (R-squared)** – Measures how well the model explains the variance in the data.
-
 ---
 
-## 4️⃣ Expected Outcomes
+## 5️⃣ Expected Outcomes
 ✅ **Develop** a machine learning model that accurately predicts body fat percentage.  
 ✅ **Visualize** correlations between body measurements and fat percentage.  
 ✅ **Optimize** models and improve prediction accuracy.  

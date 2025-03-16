@@ -80,9 +80,10 @@ From a business perspective, using anthropometric measurements like weight, heig
 --- 
 ## 3️⃣ Methodology 
 **Exploratory Data Analysis**
-- Checked for missing values, reviewed data statistics
+Matplotlib was used to visualize the distribution of the dataset, providing a deeper understanding of the spread of each feature. Most features follow a normal distribution, except for height, hip, and ankle, which exhibit slight skewness. A heatmap was applied to determine the correlation between different features, revealing a strong negative correlation between body fat and density. Additionally, weight shows a strong positive correlation with hip, chest, and abdomen size. The dataset is relatively simple, with no missing values. We also utilized boxplots to identify outliers.
 
 **Data Processing**
+Since the dataset is relatively simple and small, we decide to use as it is to start with a simple linear regression model.
 
 **Model Development**
 - Due to small dataset size, started with simple linear regression model

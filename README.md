@@ -83,7 +83,9 @@ Weight, on the other hand, was more strongly associated with skeletal and muscul
 
 Overall, the dataset highlights strong relationships between various body measurements, making it valuable for predictive modeling in health and fitness.
 
-![alt text](Project/heatmap.png)
+![image](Project/heatmap.png)
+
+
 
 
 **Data Processing**

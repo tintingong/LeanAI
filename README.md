@@ -84,6 +84,8 @@ Weight, on the other hand, was more strongly associated with skeletal and muscul
 Overall, the dataset highlights strong relationships between various body measurements, making it valuable for predictive modeling in health and fitness.
 
 
+
+
 **Data Processing**
 Since the time limtation and the dataset is relatively simple and small, we decide to use as it is to start with a simple linear regression model initiatlly 
 

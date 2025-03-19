@@ -73,8 +73,20 @@ We also utilized boxplots to identify outliers.
 
 ![image](https://github.com/user-attachments/assets/f7a5dfd3-0e4d-48c8-a8b6-877d01d2b68a)
 
+Since our dataset initially contained only male measurements, which is a limition,  we extended our analysis to include female samples for a more comprehensive evaluation.
+
+Exploratory Data Analysis (EDA), particularly through heat maps, revealed significant sex-based differences in body measurements. In our dataset, we encoded females as "1" and males as "0." We observed strong negative correlations for certain measurements, including Neck (-0.84), Forearm (-0.81), Wrist (-0.81), Chest (-0.71), Abdomen (-0.78), and Weight (-0.67). These findings indicate that males generally have larger body measurements than females. However, when assessing the influence of sex on body fat prediction, the effect appeared minimal (0.17).
+
+Abdomen circumference emerged as a key indicator of body fat percentage, showing strong correlations with Body Fat (0.36), Chest (0.92), Hip (0.68), and Thigh (0.85).
+
+Weight, on the other hand, was more strongly associated with skeletal and muscular body measurements rather than body fat alone. It exhibited high correlations with Chest (0.91), Abdomen (0.93), Hip (0.81), and Thigh (0.91), suggesting that weight increases in proportion to overall body dimensions.
+
+Overall, the dataset highlights strong relationships between various body measurements, making it valuable for predictive modeling in health and fitness.
+
+
 **Data Processing**
-Since the dataset is relatively simple and small, we decide to use as it is to start with a simple linear regression model.
+Since the time limtation and the dataset is relatively simple and small, we decide to use as it is to start with a simple linear regression model initiatlly 
+
 
 **Model Development**
 - Due to small dataset size, started with simple linear regression model

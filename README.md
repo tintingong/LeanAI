@@ -53,14 +53,35 @@ From a business perspective, using anthropometric measurements like weight, heig
 --- 
 ## 3️⃣ Methodology 
 **Exploratory Data Analysis**
-Matplotlib was used to visualize the distribution of the dataset, providing a deeper understanding of the spread of each feature. Most features follow a normal distribution, except for height, hip, and ankle, which exhibit slight skewness. A heatmap was applied to determine the correlation between different features, revealing a strong negative correlation between body fat and density. Additionally, weight shows a strong positive correlation with hip, chest, and abdomen size. The dataset is relatively simple, with no missing values. We also utilized boxplots to identify outliers.
+
+Our initial exploratory steps were the standard tasks of determining the number of features in the dataset, identifying any null or missing values, observing the scale of individual features and the data types we had to work with.  The dataset, although small, was very clean: no missing or null values, only floating and integer data types, and a total of 14 features.  A couple of important notes: the data was taken of men only, density was measured using under water weighing, and the remaiming features were measured using the measurement standards listed in Benhke and Wilmore (1974), pp. 45-48.
+
+Matplotlib was used to visualize the distribution of the dataset, providing a deeper understanding of the spread of each feature. 
+
+![image](https://github.com/user-attachments/assets/8b989424-30e2-48fc-9cae-b89ac1b0c5c4)
+
+
+
+
+Most features follow a normal distribution, except for height, hip, and ankle, which exhibit slight skewness. 
+A heatmap was applied to determine the correlation between different features, revealing a strong negative correlation between body fat and density. Additionally, weight shows a strong positive correlation with hip, chest, and abdomen size.  
+
+![image](https://github.com/user-attachments/assets/4713c904-67c4-486b-ac84-00abfbf3a7a8)
+
+
+We also utilized boxplots to identify outliers.
+
+![image](https://github.com/user-attachments/assets/f7a5dfd3-0e4d-48c8-a8b6-877d01d2b68a)
 
 **Data Processing**
 Since the dataset is relatively simple and small, we decide to use as it is to start with a simple linear regression model.
 
 **Model Development**
 - Due to small dataset size, started with simple linear regression model
-- 
+
+![image](https://github.com/user-attachments/assets/6c1119d4-b359-4380-be0b-7fe80eabe1a3)
+
+ 
 ### 🛠 **Model evaluation metrics**
 - **📉 MAE (Mean Absolute Error)** – Average absolute error.
 - **📉 RMSE (Root Mean Squared Error)** – Root mean square error.

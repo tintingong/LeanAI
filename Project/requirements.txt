@@ -1,19 +1,20 @@
-ipython
-jupyterlab
-loguru
-matplotlib
-mkdocs
-notebook
+# ipython
+# jupyterlab
+# loguru
+# matplotlib
+# mkdocs
+# notebook
 numpy
 pandas
-pip
-python-dotenv
-ruff
+# pip
+# python-dotenv
+# ruff
 scikit-learn
-tqdm
-typer
+# tqdm
+# typer
 # fastapi
 fastapi
 uvicorn
 python-multipart
+jinja2
 

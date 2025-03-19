@@ -28,15 +28,11 @@ templates = Jinja2Templates(directory="api/templates")
 
 # Load model
 MODEL_PATH = Path(getenv("MODEL_PATH", "/app/models/model.pkl"))
-print("MODEL_PATH:", MODEL_PATH)
 
 if MODEL_PATH.exists():
     model = joblib.load(MODEL_PATH)
-    print("--------------- Model loaded")
-    print("MODEL TYPE:", type(model))
 else:
     model = None
-    print("Model not found or failed to load.")
 
 # Define routes
 @app.get("/")
@@ -57,15 +53,6 @@ async def predict(
     if model is None:
         return {"error": "Model not found"}
 
-    print("abdomen:", abdomen)
-    print("hip:", hip)
-    print("weight:", weight)
-    print("thigh:", thigh)
-    print("knee:", knee)
-    print("biceps:", biceps)    
-    print("neck:", neck)
-
-
     # Create array with features
     features = np.array([[abdomen, hip, weight, thigh, knee, biceps, neck]])
     print(features)
@@ -77,7 +64,7 @@ async def predict(
     # Get prediction
     prediction = model.predict(features)[0]
 
-    # ✅ Detect if the request wants JSON or HTML
+    # Detect if the request wants JSON or HTML
     accept_type = request.headers.get("accept", "")
 
     if "application/json" in accept_type:  # API request

@@ -57,7 +57,7 @@ This project includes a **FastAPI-based application** for predicting body fat pe
 - A **web form** for manual input  
 - A **REST API** for external integration  
 
-🔗 **[Full API Documentation](API/README.md)**
+🔗 **[Full API Documentation](Project/api/README.md)**
 
  
 ### 🚀 Quick Start  
@@ -78,7 +78,7 @@ curl -X POST "http://localhost:8000/predict/" \
      -d "abdomen=110&hip=120&weight=100&thigh=190&knee=50&biceps=38&neck=45"
 ```
 
-For detailed instructions on deployment, troubleshooting, and advanced configurations, check out the **[API README](API/README.md)**.
+For detailed instructions on deployment, troubleshooting, and advanced configurations, check out the **[API README](Project/api/README.md)**.
 
 
 ## 3️⃣ Methodology 

@@ -95,7 +95,6 @@ train:
 clean:
 	rm -rf models/*
 
-
 #################################################################################
 # Self Documenting Commands                                                     #
 #################################################################################
@@ -113,6 +112,3 @@ export PRINT_HELP_PYSCRIPT
 
 help:
 	@$(PYTHON_INTERPRETER) -c "${PRINT_HELP_PYSCRIPT}" < $(MAKEFILE_LIST)
-
-
-

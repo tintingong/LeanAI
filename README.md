@@ -153,3 +153,10 @@ Since the time limtation and the dataset is relatively simple and small, we deci
 ---
 
 🚀 **This project will help individuals monitor their health, make predictions, and make informed decisions!** 🎯
+
+Team Members:
+Igor Bak
+Alejandro Castellanos
+Faisal Khan
+Hassan Saade
+Anna W

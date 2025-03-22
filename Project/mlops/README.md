@@ -21,7 +21,6 @@
 - [Author](#🧑‍💻-about-the-author)
 - [License](#📜-license)
 
-
 ---
 
 ## 📌 Overview
@@ -103,6 +102,7 @@ I -->|Updates Model| D
 ---
 
 ## 📂 Project Folder Structure
+
 ```bash
 mlops-project/
 │── infra/                   # 🏗 Infrastructure (OpenTofu, Docker)

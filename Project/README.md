@@ -49,7 +49,7 @@ This project leverages the **Body Fat Prediction dataset from Kaggle**, which in
 ## 2️⃣ Dataset & Features
 
 - 📂 **Source**: Kaggle – Body Fat Prediction
-- 💾 **Size**: 252 records
+- 💾 **Size**: 436 samples, 16 columns
 - 🧪 **Features**:
   - **Target**: BodyFat (percentage)
   - **Inputs**: Age, Weight, Height, Abdomen, Chest, Neck, Thigh, Hip, etc.
@@ -74,12 +74,12 @@ This project leverages the **Body Fat Prediction dataset from Kaggle**, which in
 - **Abdomen circumference** is the strongest single predictor.
 - **Weight** correlates more with muscle mass than fat.
 
-
 ---
 
 ### 🧠 Feature Engineering
 
 Custom features:
+
 - `bmi = Weight / (Height/100)^2`
 - `waist_to_hip = Abdomen / Hip`
 - `waist_to_height = Abdomen / Height`

@@ -5,7 +5,7 @@
 
 ## 🧠 Project Summary
 
-This project utilizes the **Extended Body Fat Prediction dataset** from Kaggle, which contains anthropometric measurements such as weight, height, waist circumference, and body fat percentage.
+This project utilizes the * Body Fat Prediction Dataset & Extended** from Kaggle, which contains anthropometric measurements such as weight, height, waist circumference, and body fat percentage.
 
 ### ✅ Key Result
 

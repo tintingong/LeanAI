@@ -67,7 +67,7 @@ From a business perspective, using anthropometric measurements like weight, heig
 
 ### 📊 Exploratory Data Analysis (EDA)
 
-- [Bodyfat EDA Methodology](notebooks/eda/README.md)
+- [Bodyfat EDA Methodology](EDA/README.md)
 
 - Dataset was **clean**, numeric, and no nulls.
 - **Visualizations** revealed normal distributions with minor skewness.

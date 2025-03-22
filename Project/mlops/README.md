@@ -9,17 +9,17 @@
 
 ## 📌 Table of Contents
 
-- [Overview](#📌-overview)
-- [Technologies Used](#🚀-technologies-used)
-- [System Architecture](#🏛-system-architecture)
-- [Project Folder Structure](#📂-project-folder-structure)
-- [Installation & Setup](#📥-installation--setup)
-- [Example API Request](#🔥-example-api-request)
-- [Troubleshooting](#🚑-troubleshooting)
-- [Demo](#🎥-demo---fastapi-in-action)
-- [Next Steps](#🚀-next-steps)
-- [Author](#🧑‍💻-about-the-author)
-- [License](#📜-license)
+- [Overview](#-overview)
+- [Technologies Used](#-technologies-used)
+- [System Architecture](#-system-architecture)
+- [Project Folder Structure](#-project-folder-structure)
+- [Installation & Setup](#-installation--setup)
+- [Example API Request](#-example-api-request)
+- [Troubleshooting](#-troubleshooting)
+- [Demo](#-demo---fastapi-in-action)
+- [Next Steps](#-next-steps)
+- [Author](#-about-the-author)
+- [License](#-license)
 
 ---
 
@@ -161,6 +161,7 @@ pixi install
 ```
 
 ### 3️⃣ Automate Setup & Deployment
+
 We use a Python CLI (setup.py) to handle installation, deployment, and testing.
 
 ```python
@@ -262,9 +263,10 @@ I explore AI technology and data science while diving into neuroscience, physics
 
 ### 🤝 Let's Connect!
 
-🔗 GitHub: k2jac9
+🔗 GitHub: [k2jac9](https://github.com/k2jac9)
 
-🔗 LinkedIn: Alejandro Castellanos
+🔗 LinkedIn: [Alejandro Castellanos](https://www.linkedin.com/in/aicastellanos)
+
 
 ## 📜 License
 

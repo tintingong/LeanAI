@@ -124,3 +124,24 @@ curl -X POST "http://localhost:8000/predict/" \
      -H "Content-Type: application/x-www-form-urlencoded" \
      -d "abdomen=110&hip=120&weight=100&thigh=190&knee=50&biceps=38&neck=45"
 ```
+
+---
+
+## 6️⃣ Expected Outcomes
+
+- ✅ **Accurate prediction** of body fat percentage
+- ✅ **Feature-based health insights** using anthropometric measurements
+- ✅ **Scalable FastAPI** for real-world integration (web & REST)
+- ✅ **Visual analytics** using Evidently AI for drift detection and retraining triggers
+
+---
+
+## 🎓 Team Members
+
+| Name                 | Email                          | Video Link |
+|----------------------|--------------------------------|------------|
+| Igor Bak             | baxwork88@gmail.com            | 283        |
+| Alejandro Castellanos| alexcastellanos29@gmail.com    | 283        |
+| Faisal Khan          | fa.khan@alumni.utoronto.ca     | 283        |
+| Hassan Saade         | saadehassan@hotmail.com        | 283        |
+| Anna Wong            | annawong.work@gmail.com        | 283        |

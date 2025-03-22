@@ -51,6 +51,36 @@ From a business perspective, using anthropometric measurements like weight, heig
 - `Neck`, `Chest`, `Abdomen`, `Hip`, `Thigh`, `Knee`, `Ankle`, `Biceps`, `Forearm`, `Wrist` – Circumference measurements of different body parts (in inches).
 
 --- 
+
+## 📌 FastAPI Backend  
+This project includes a **FastAPI-based application** for predicting body fat percentage. The API provides both:  
+- A **web form** for manual input  
+- A **REST API** for external integration  
+
+🔗 **[Full API Documentation](Project/api/README.md)**
+
+ 
+### 🚀 Quick Start  
+#### Run the API using Docker  
+```bash
+docker-compose up --build  # First time setup
+docker-compose up          # Subsequent runs
+```
+
+- **Access the web interface**: [http://localhost:8000](http://localhost:8000)  
+- **API documentation (Swagger UI)**: [http://localhost:8000/docs](http://localhost:8000/docs)  
+
+### 🔹 Example API request  
+```bash
+curl -X POST "http://localhost:8000/predict/" \
+     -H "accept: application/json" \
+     -H "Content-Type: application/x-www-form-urlencoded" \
+     -d "abdomen=110&hip=120&weight=100&thigh=190&knee=50&biceps=38&neck=45"
+```
+
+For detailed instructions on deployment, troubleshooting, and advanced configurations, check out the **[API README](Project/api/README.md)**.
+
+
 ## 3️⃣ Methodology 
 **Exploratory Data Analysis**
 
@@ -83,7 +113,8 @@ Weight, on the other hand, was more strongly associated with skeletal and muscul
 
 Overall, the dataset highlights strong relationships between various body measurements, making it valuable for predictive modeling in health and fitness.
 
-![image](Project/heatmap.png)
+![image](https://github.com/user-attachments/assets/c816a08d-d563-433d-beb5-e7f5fe8ce83e)
+
 
 
 
@@ -122,3 +153,10 @@ Since the time limtation and the dataset is relatively simple and small, we deci
 ---
 
 🚀 **This project will help individuals monitor their health, make predictions, and make informed decisions!** 🎯
+
+Team Members:
+Igor Bak
+Alejandro Castellanos
+Faisal Khan
+Hassan Saade
+Anna W

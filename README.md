@@ -153,8 +153,15 @@ Since the time limtation and the dataset is relatively simple and small, we deci
 ✅ **Optimize** models and improve prediction accuracy.  
 
 ---
+## 6️⃣ Expected Outcomes
 
-🚀 **This project will help individuals monitor their health, make predictions, and make informed decisions!** 🎯
+- ✅ **Accurate prediction** of body fat percentage
+- ✅ **Feature-based health insights** using anthropometric measurements
+- ✅ **Scalable FastAPI** for real-world integration (web & REST)
+- ✅ **Visual analytics** using Evidently AI for drift detection and retraining triggers
+  
+
+🚀 **This project will help individuals monitor their health and make informed decisions!** 🎯
 
 
 

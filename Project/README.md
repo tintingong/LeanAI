@@ -7,6 +7,7 @@ This project leverages the **Body Fat Prediction dataset from Kaggle**, which in
 ---
 
 ### 🔹 Business Objective
+
 🎯 Build a machine learning model to estimate **body fat percentage** from physical measurements.
 
 ---
@@ -23,19 +24,23 @@ This project leverages the **Body Fat Prediction dataset from Kaggle**, which in
 ### 💼 Business Use Cases
 
 #### 1. Health & Fitness Industry
+
 - **Motivation**: Replace expensive tools (DEXA) with scalable solutions.
 - **Use Case**: Gyms or fitness apps provide instant assessments.
 - **Value**: Low-cost health insights boost engagement and subscriptions.
 
 #### 2. SaaS Wellness Tools
+
 - **Use Case**: Scalable B2B solutions for clinics, schools, or corporations.
 - **Value**: Enables health monitoring at scale without medical devices.
 
 #### 3. Personalized E-Commerce
+
 - **Use Case**: Tailored plans (meals, workouts, apparel) based on body fat.
 - **Value**: Higher customer satisfaction → more conversions and loyalty.
 
 #### 4. Insurance & Public Health
+
 - **Use Case**: More accurate risk profiling than BMI alone.
 - **Value**: Better risk management for insurers, better outcomes for health programs.
 
@@ -53,7 +58,9 @@ This project leverages the **Body Fat Prediction dataset from Kaggle**, which in
 
 ## 3️⃣ Methodology
 
-### 🔍 Exploratory Data Analysis (EDA)
+### 📊 Exploratory Data Analysis (EDA)
+
+- [Bodyfat EDA Methodology](notebooks/eda/README.md)
 
 - Dataset was **clean**, numeric, and no nulls.
 - **Visualizations** revealed normal distributions with minor skewness.
@@ -63,8 +70,10 @@ This project leverages the **Body Fat Prediction dataset from Kaggle**, which in
 - **Sex-based analysis** showed anatomical differences, but **Sex** had a weak impact on body fat prediction.
 
 📈 Key Insights:
+
 - **Abdomen circumference** is the strongest single predictor.
 - **Weight** correlates more with muscle mass than fat.
+
 
 ---
 
@@ -81,11 +90,13 @@ Custom features:
 ### 🧪 Modeling Strategy
 
 Started simple due to data size:
+
 - ✅ **Linear Regression** (baseline)
 - ✅ **SVR + RFE + PCA** (enhanced model)
 - ✅ **Separate models**: Male / Female / Combined
 
 **Metrics**:
+
 - MAE, RMSE, R²
 - Evidently AI reports for:
   - Data Drift

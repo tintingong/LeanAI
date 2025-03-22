@@ -96,7 +96,6 @@ Matplotlib was used to visualize the distribution of the dataset, providing a de
 Most features follow a normal distribution, except for height, hip, and ankle, which exhibit slight skewness. 
 A heatmap was applied to determine the correlation between different features, revealing a strong negative correlation between body fat and density. Additionally, weight shows a strong positive correlation with hip, chest, and abdomen size.  
 
-![image](https://github.com/user-attachments/assets/4713c904-67c4-486b-ac84-00abfbf3a7a8)
 
 
 We also utilized boxplots to identify outliers.

@@ -154,9 +154,11 @@ Since the time limtation and the dataset is relatively simple and small, we deci
 
 🚀 **This project will help individuals monitor their health, make predictions, and make informed decisions!** 🎯
 
-Team Members:
-Igor Bak
-Alejandro Castellanos
-Faisal Khan
-Hassan Saade
-Anna W
+
+| Team Member             | email address                 | Video link   |
+| :---------------------: | :---------------------------: | :----------: |
+| Igor Bak                | baxwork88@gmail.com           | 283          |
+| Alejandro Castellanos   | alexcastellanos29@gmail.com   | 283          |
+| Faisal Khan             | fa.khan@alumni.utoronto.ca    | 283          |
+| Hassan Saade            | saadehassan@hotmail.com       | 283          |
+| Anna Wong               | annawong.work@gmail.com       | 283          |

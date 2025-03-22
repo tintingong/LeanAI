@@ -195,12 +195,26 @@ For detailed instructions on deployment, troubleshooting, and advanced configura
 
 ---
 
-## 6️⃣ Outcomes
+## 6️⃣ 🧬 Use Case Outcomes
 
-- ✅ **Accurate prediction** of body fat percentage
-- ✅ **Feature-based health insights** using anthropometric measurements
-- ✅ **Scalable FastAPI** for real-world integration (web & REST)
-- ✅ **Visual analytics** using Evidently AI for drift detection and retraining triggers
+### Body Fat Prediction App
+
+✅ Accurate prediction of body fat percentage
+→ Leveraging machine learning models trained on anthropometric data
+
+✅ Feature-based health insights
+→ Understand how variables like BMI, neck circumference, and body measurements affect body fat levels
+
+✅ Scalable FastAPI service
+→ Enables real-time predictions via REST endpoints
+→ Can be containerized and deployed to Kubernetes for production scaling
+
+✅ Visual analytics & optimization with MLflow + Optuna
+→ Track experiments, evaluate metrics, and optimize hyperparameters with ease
+
+✅ CI/CD & Infra-as-Code ready
+→ Infrastructure automated via OpenTofu, deployment pipelines via GitHub Actions or similar
+→ Ready for transition to the cloud (EKS, GCP, Azure, etc.)
 
 ### Results after optimized experiments
 

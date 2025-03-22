@@ -1,4 +1,6 @@
+
 # LeanAI
+
 # 📌 Predicting Body Fat Percentage Using Machine Learning
 
 ## 1️⃣ Project Overview
@@ -49,6 +51,7 @@ From a business perspective, using anthropometric measurements like weight, heig
 - `Weight` – Weight (in pounds).
 - `Height` – Height (in inches).
 - `Neck`, `Chest`, `Abdomen`, `Hip`, `Thigh`, `Knee`, `Ankle`, `Biceps`, `Forearm`, `Wrist` – Circumference measurements of different body parts (in inches).
+
 
 --- 
 
@@ -152,6 +155,7 @@ Since the time limtation and the dataset is relatively simple and small, we deci
 ---
 
 🚀 **This project will help individuals monitor their health, make predictions, and make informed decisions!** 🎯
+
 
 
 | Team Member             | email address                 | Video link   |

@@ -195,7 +195,7 @@ For detailed instructions on deployment, troubleshooting, and advanced configura
 
 ---
 
-## 6️⃣ Expected Outcomes
+## 6️⃣ Outcomes
 
 - ✅ **Accurate prediction** of body fat percentage
 - ✅ **Feature-based health insights** using anthropometric measurements
@@ -224,8 +224,8 @@ ElasticNet         2.861452  11.469599  0.787454  0.238231            0.788342
 
 | Team Member             | email address                 | Video link   |
 | :---------------------: | :---------------------------: | :----------: |
-| Igor Bak                | baxwork88@gmail.com           | 283          |
-| Alejandro Castellanos   | alexcastellanos29@gmail.com   | 283          |
-| Faisal Khan             | fa.khan@alumni.utoronto.ca    | 283          |
-| Hassan Saade            | saadehassan@hotmail.com       | 283          |
-| Anna Wong               | annawong.work@gmail.com       | 283          |
+| Igor Bak                | <baxwork88@gmail.com>           | 283          |
+| Alejandro Castellanos   | <alexcastellanos29@gmail.com>   | 283          |
+| Faisal Khan             | <fa.khan@alumni.utoronto.ca>    | 283          |
+| Hassan Saade            | <saadehassan@hotmail.com>       | 283          |
+| Anna Wong               | <annawong.work@gmail.com>       | 283          |

@@ -1,4 +1,6 @@
+
 # LeanAI
+
 # 📌 Predicting Body Fat Percentage Using Machine Learning
 
 ## 1️⃣ Project Overview
@@ -50,36 +52,8 @@ From a business perspective, using anthropometric measurements like weight, heig
 - `Height` – Height (in inches).
 - `Neck`, `Chest`, `Abdomen`, `Hip`, `Thigh`, `Knee`, `Ankle`, `Biceps`, `Forearm`, `Wrist` – Circumference measurements of different body parts (in inches).
 
+
 --- 
-
-## 📌 FastAPI Backend  
-This project includes a **FastAPI-based application** for predicting body fat percentage. The API provides both:  
-- A **web form** for manual input  
-- A **REST API** for external integration  
-
-🔗 **[Full API Documentation](Project/api/README.md)**
-
- 
-### 🚀 Quick Start  
-#### Run the API using Docker  
-```bash
-docker-compose up --build  # First time setup
-docker-compose up          # Subsequent runs
-```
-
-- **Access the web interface**: [http://localhost:8000](http://localhost:8000)  
-- **API documentation (Swagger UI)**: [http://localhost:8000/docs](http://localhost:8000/docs)  
-
-### 🔹 Example API request  
-```bash
-curl -X POST "http://localhost:8000/predict/" \
-     -H "accept: application/json" \
-     -H "Content-Type: application/x-www-form-urlencoded" \
-     -d "abdomen=110&hip=120&weight=100&thigh=190&knee=50&biceps=38&neck=45"
-```
-
-For detailed instructions on deployment, troubleshooting, and advanced configurations, check out the **[API README](Project/api/README.md)**.
-
 
 ## 3️⃣ Methodology 
 **Exploratory Data Analysis**
@@ -96,7 +70,6 @@ Matplotlib was used to visualize the distribution of the dataset, providing a de
 Most features follow a normal distribution, except for height, hip, and ankle, which exhibit slight skewness. 
 A heatmap was applied to determine the correlation between different features, revealing a strong negative correlation between body fat and density. Additionally, weight shows a strong positive correlation with hip, chest, and abdomen size.  
 
-![image](https://github.com/user-attachments/assets/4713c904-67c4-486b-ac84-00abfbf3a7a8)
 
 
 We also utilized boxplots to identify outliers.
@@ -128,31 +101,92 @@ Since the time limtation and the dataset is relatively simple and small, we deci
 
 ![image](https://github.com/user-attachments/assets/6c1119d4-b359-4380-be0b-7fe80eabe1a3)
 
- 
-### 🛠 **Model evaluation metrics**
-- **📉 MAE (Mean Absolute Error)** – Average absolute error.
-- **📉 RMSE (Root Mean Squared Error)** – Root mean square error.
-- **📈 R² (R-squared)** – Measures how well the model explains the variance in the data.
+- Dataset was **clean**, numeric, and no nulls.
+- **Visualizations** revealed normal distributions with minor skewness.
+- Strong correlations:
+  - **Negative**: BodyFat vs Density
+  - **Positive**: Abdomen & Chest vs BodyFat
+- **Sex-based analysis** showed anatomical differences, but **Sex** had a weak impact on body fat prediction.
 
-**Feature Selection**
+📈 Key Insights:
+- **Abdomen circumference** is the strongest single predictor.
+- **Weight** correlates more with muscle mass than fat.
+   
+### 🧠 Feature Engineering
+
+Custom features:
+- `bmi = Weight / (Height/100)^2`
+- `waist_to_hip = Abdomen / Hip`
+- `waist_to_height = Abdomen / Height`
+- `arm_ratio = Forearm / Biceps`
+
+---
+
+### 🧪 Modeling Strategy
+
+Started simple due to data size:
+- ✅ **Linear Regression** (baseline)
+- ✅ **SVR + RFE + PCA** (enhanced model)
+- ✅ **Separate models**: Male / Female / Combined
+
+**Metrics**:
+- MAE, RMSE, R²
+- Evidently AI reports for:
+  - Data Drift
+  - Target Drift
+  - Regression Performance
 
 ## 4️⃣ Machine Learning Solution 
-💡 **Potential algorithms to use**:
-- ✔️ **Linear Regression** (for interpretability)
-- ✔️ **Random Forest** (for high accuracy)
-- ✔️ **XGBoost** (for advanced optimization)
-- ✔️ **Neural Networks** (for complex relationships)
+- ⚙️ **Data Processing**: Polars, Scikit-Learn
+- 🔁 **Workflow**: Metaflow
+- 📊 **Experiment Tracking**: MLflow
+- 🔍 **Monitoring**: Evidently AI
+- 🧪 **Tuning**: Optuna
+- 📦 **API**: FastAPI
+- 📤 **Serving**: Streamlit dashboard
+- 📂 **Model Storage**: joblib + MLflow Artifacts
 
 ---
 
-## 5️⃣ Expected Outcomes
-✅ **Develop** a machine learning model that accurately predicts body fat percentage.  
-✅ **Visualize** correlations between body measurements and fat percentage.  
-✅ **Optimize** models and improve prediction accuracy.  
+## 5️⃣ FastAPI Backend
+This project includes a **FastAPI-based application** for predicting body fat percentage. The API provides both:  
+- A **web form** for manual input  
+- A **REST API** for external integration  
+
+🔗 **[Full API Documentation](Project/api/README.md)**
+
+ 
+### 🚀 Quick Start  
+#### Run the API using Docker  
+```bash
+docker-compose up --build  # First time setup
+docker-compose up          # Subsequent runs
+```
+
+- **Access the web interface**: [http://localhost:8000](http://localhost:8000)  
+- **API documentation (Swagger UI)**: [http://localhost:8000/docs](http://localhost:8000/docs)  
+
+### 🔹 Example API request  
+```bash
+curl -X POST "http://localhost:8000/predict/" \
+     -H "accept: application/json" \
+     -H "Content-Type: application/x-www-form-urlencoded" \
+     -d "abdomen=110&hip=120&weight=100&thigh=190&knee=50&biceps=38&neck=45"
+```
+
+For detailed instructions on deployment, troubleshooting, and advanced configurations, check out the **[API README](Project/api/README.md)**.  
 
 ---
+## 6️⃣ Expected Outcomes
 
-🚀 **This project will help individuals monitor their health, make predictions, and make informed decisions!** 🎯
+- ✅ **Accurate prediction** of body fat percentage
+- ✅ **Feature-based health insights** using anthropometric measurements
+- ✅ **Scalable FastAPI** for real-world integration (web & REST)
+- ✅ **Visual analytics** using Evidently AI for drift detection and retraining triggers
+  
+
+🚀 **This project will help individuals monitor their health and make informed decisions!** 🎯
+
 
 
 | Team Member             | email address                 | Video link   |

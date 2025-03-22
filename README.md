@@ -202,6 +202,24 @@ For detailed instructions on deployment, troubleshooting, and advanced configura
 - ✅ **Scalable FastAPI** for real-world integration (web & REST)
 - ✅ **Visual analytics** using Evidently AI for drift detection and retraining triggers
 
+### Results after optimized experiments
+
+```bash
+Model Evaluation Results:
+                        MAE        MSE        R2      MAPE  Explained Variance
+SVR                0.103007   0.019722  0.999635  0.008664            0.999635
+MLPRegressor       0.248110   0.111931  0.997926  0.018232            0.997995
+StackingRegressor  0.319352   0.288114  0.994661  0.034541            0.995342
+LinearRegression   0.506027   0.401387  0.992562  0.037945            0.992584
+Ridge              0.525192   0.429619  0.992039  0.039954            0.992058
+GradientBoosting   1.315073   2.867866  0.946855  0.090566            0.946890
+XGBoost            1.501784   4.675057  0.913365  0.097473            0.913372
+RandomForest       1.702659   4.836746  0.910369  0.127730            0.910589
+Lasso              2.070826   6.018619  0.888468  0.166688            0.889867
+AdaBoost           2.290862   7.710425  0.857116  0.177951            0.857432
+ElasticNet         2.861452  11.469599  0.787454  0.238231            0.788342
+```
+
 🚀 **This project will help individuals monitor their health and make informed decisions!** 🎯
 
 | Team Member             | email address                 | Video link   |

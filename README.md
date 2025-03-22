@@ -3,9 +3,39 @@
 
 # 📌 Predicting Body Fat Percentage Using Machine Learning
 
-## 1️⃣ Project Overview
+## 🧠 Project Summary
 
 This project utilizes the **Body Fat Prediction dataset** from Kaggle, which contains anthropometric measurements such as weight, height, waist circumference, and body fat percentage.
+
+### ✅ Key Result
+
+Achieved < 1% error with SVR model using body measurements only.
+
+### 📊 Results Summary
+
+| Model             | MAE  | R²     | MAPE   |
+|------------------|------|--------|--------|
+| SVR (best)        | 0.10 | 0.9996 | 0.86%  |
+| MLPRegressor      | 0.24 | 0.9979 | 1.82%  |
+| Linear Regression | 0.50 | 0.9925 | 3.79%  |
+
+---
+
+### 🛠️ Tech Stack
+
+| Layer                  | Tool/Framework        |
+|------------------------|------------------------|
+| Infrastructure         | OpenTofu, Docker, K3s  |
+| Data Processing        | Polars, Scikit-learn   |
+| Workflow Orchestration | Metaflow               |
+| Model Tracking         | MLflow                 |
+| HPO                    | Optuna                 |
+| Monitoring             | Evidently AI           |
+| API                    | FastAPI                |
+| Frontend               | Streamlit              |
+| Deployment             | Docker / K8s (Minikube/K3s) |
+
+---
 
 ### 🔹 Business Objective
 
@@ -105,7 +135,7 @@ Since the time limtation and the dataset is relatively simple and small, we deci
 
 ### **Model Development**
 
-- Due to small dataset size, started with simple linear regression model
+- Given the dataset's size and simplicity, we began with lightweight models to establish a strong baseline.
 
 ![image](https://github.com/user-attachments/assets/6c1119d4-b359-4380-be0b-7fe80eabe1a3)
 
@@ -158,6 +188,24 @@ Started simple due to data size:
 - 📦 **API**: FastAPI
 - 📤 **Serving**: Streamlit dashboard
 - 📂 **Model Storage**: joblib + MLflow Artifacts
+
+```mermaid
+graph TD
+  subgraph Client
+    A1[User Input Form] --> A2[FastAPI / REST API]
+  end
+  A2 --> B1[ML Model \n joblib]
+  B1 --> B2[MLflow Tracking]
+  B1 --> B3[Evidently Monitoring]
+  B1 --> B4[Polars Data Pipeline]
+  B2 --> C1[Optuna Tuning]
+  B3 --> C2[Alerts / Notifications]
+
+  subgraph Infra
+    D1[Docker] --> D2[Minikube / K3s]
+    D2 --> E1[OpenTofu IaC]
+  end
+```
 
 ---
 

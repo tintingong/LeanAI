@@ -26,15 +26,15 @@ Environment settings like `LOKY_MAX_CPU_COUNT` are configured and common warning
 
 ## 🦜 3. Preprocessing and Cleaning
 
-### Height and Weight Sanity Check:
+### Height and Weight Sanity Check
 
 - Suspected inversions (`Height < 1.0`, `Weight > 100`) are **swapped**.
 
-### Filtering Implausible Data:
+### Filtering Implausible Data
 
 - Records with **extremely low height (< 0.5m)** or **weight (< 10kg)** are removed.
 
-### Missing Values:
+### Missing Values
 
 - All rows with missing values are dropped to ensure clean inputs for analysis and modeling.
 
@@ -67,20 +67,20 @@ Additionally:
 
 ## 🚀 6. Clustering Analysis
 
-### Scaling:
+### Scaling
 
 - All numeric features are standardized using `StandardScaler`.
 
-### Clustering Methods:
+### Clustering Methods
 
 - **K-Means** (k=3): Partitioning into 3 clusters.
 - **DBSCAN**: Density-based clustering.
 
-### Evaluation:
+### Evaluation
 
 - **Silhouette Scores** are calculated to evaluate clustering performance.
 
-### Dimensionality Reduction:
+### Dimensionality Reduction
 
 - **t-SNE** and **UMAP** for visualizing high-dimensional data in 2D.
 - **Hierarchical Clustering** using Ward linkage for dendrogram visualization.
@@ -96,11 +96,11 @@ Additionally:
 
 ## 🤝 8. Demographic Analysis (Age & Sex)
 
-### Age Grouping:
+### Age Grouping
 
 - Age is binned into: 18–30, 31–45, 46–60, and 60+.
 
-### Visualization:
+### Visualization
 
 - **Violin Plots**: BodyFat distribution by AgeGroup and Sex.
 - **Boxplots**: Key features across AgeGroups and Sex.

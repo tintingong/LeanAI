@@ -285,9 +285,9 @@ ElasticNet         2.861452  11.469599  0.787454  0.238231            0.788342
 🚀 **This project will help individuals monitor their health and make informed decisions!** 🎯
 
 | Team Member             | email address                 | Video link   |
-| :---------------------: | :---------------------------: | :----------: |
-| Igor Bak                | <baxwork88@gmail.com>           | 283          |
-| Alejandro Castellanos   | <alexcastellanos29@gmail.com>   | 283          |
-| Faisal Khan             | <fa.khan@alumni.utoronto.ca>    | 283          |
-| Hassan Saade            | <saadehassan@hotmail.com>       | 283          |
-| Anna Wong               | <annawong.work@gmail.com>       | 283          |
+| :---------------------: | :---------------------------: | :---------------------------------------------------------------------------------------------------------: |
+| Igor Bak                | baxwork88@gmail.com           | 283                                                                                                         |
+| Alejandro Castellanos   | alexcastellanos29@gmail.com   | 283                                                                                                         |
+| Faisal Khan             | fa.khan@alumni.utoronto.ca    | 283                                                                                                         |
+| Hassan Saade            | saadehassan@hotmail.com       | 283                                                                                                         |
+| Anna Wong               | annawong.qea@gmail.com       | 283                                                                                                            |

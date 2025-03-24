@@ -1,4 +1,3 @@
-
 # LeanAI
 
 # 📌 Predicting Body Fat Percentage Using Machine Learning

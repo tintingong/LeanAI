@@ -290,5 +290,5 @@ ElasticNet         2.861452  11.469599  0.787454  0.238231            0.788342
 | Alejandro Castellanos   | <alexcastellanos29@gmail.com> | 283                                                                          |
 | Faisal Khan             | <fa.khan@alumni.utoronto.ca>  | [Video](https://vimeo.com/1068619321/2e0a44818f?share=copy)                  |
 | Hassan Saade            | <saadehassan@hotmail.com>     | 283                                                                          |
-| Anna Wong               | <annawong.qea@gmail.com>      | [Video](https://drive.googlle.com/file/d/1GhW_6vJH5op7ZIGatGrIoBzU6l5xQu4h/view?usp=drive_link)283                                                                          |
-
+| Anna Wong               | <annawong.qea@gmail.com>      | [Video](https://drive.googlle.com/file/d/1GhW_6vJH5op7ZIGatGrIoBzU6l5xQu4h/view?usp=drive_link)
+                                                                         

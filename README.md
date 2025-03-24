@@ -97,7 +97,7 @@ From a business perspective, using anthropometric measurements like weight, heig
 
 ### 📊 Exploratory Data Analysis (EDA)
 
-- [Bodyfat EDA Methodology](EDA/README.md)
+- [Bodyfat EDA Methodology](Project/EDA/README.md)
 
 - Dataset was **clean**, numeric, and no nulls.
 - **Visualizations** revealed normal distributions with minor skewness.
@@ -243,26 +243,35 @@ For detailed instructions on deployment, troubleshooting, and advanced configura
 
 ---
 
-## 6️⃣ 🧬 Use Case Outcomes
+## 6️⃣ 🚀 Real-World Applications & Impact
 
-### Body Fat Prediction App
+### 📈 Business & Health Significance
 
-✅ Accurate prediction of body fat percentage
-→ Leveraging machine learning models trained on anthropometric data
+This project offers a unique intersection of machine learning, healthcare, and operational efficiency across several sectors:
 
-✅ Feature-based health insights
-→ Understand how variables like BMI, neck circumference, and body measurements affect body fat levels
+🧬 Personalized Health & Fitness
+Diet & Exercise Recommendations
+Tailored guidance based on predicted body composition — enabling individuals to track progress, set goals, and adjust habits effectively.
 
-✅ Scalable FastAPI service
-→ Enables real-time predictions via REST endpoints
-→ Can be containerized and deployed to Kubernetes for production scaling
+🏥 Medical Diagnostics
+Risk Assessment for Chronic Conditions
+Early detection and monitoring of obesity, diabetes, and cardiovascular risks using body composition insights without expensive hardware.
 
-✅ Visual analytics & optimization with MLflow + Optuna
-→ Track experiments, evaluate metrics, and optimize hyperparameters with ease
+⚙️ Healthcare AI Integration
+AI-Driven Decision Support
+Integration into clinical or wellness platforms as a backend service to streamline triage, health assessments, or preventative care recommendations.
 
-✅ CI/CD & Infra-as-Code ready
-→ Infrastructure automated via OpenTofu, deployment pipelines via GitHub Actions or similar
-→ Ready for transition to the cloud (EKS, GCP, Azure, etc.)
+🏅 Sports & Athletic Optimization
+Performance Enhancement
+Coaches and athletes can optimize training programs by targeting fat-to-muscle ratios using easy-to-measure inputs.
+
+💼 Insurance & Actuarial Applications
+Improved Risk Modeling
+More accurate, personalized health profiles for premium calculations, reducing overgeneralization and unfair pricing.
+
+💸 Operational Cost Savings Across Industries
+Scalable, Non-Invasive Alternatives
+Eliminates the need for expensive tools like DEXA scans or calipers — allowing schools, gyms, and clinics to adopt accessible predictive solutions at scale.
 
 ### Results after optimized experiments
 
@@ -282,12 +291,12 @@ AdaBoost           2.290862   7.710425  0.857116  0.177951            0.857432
 ElasticNet         2.861452  11.469599  0.787454  0.238231            0.788342
 ```
 
-🚀 **This project will help individuals monitor their health and make informed decisions!** 🎯
+🚀 This project supports proactive health monitoring and informed decision-making, while delivering operational efficiencies across multiple sectors. 🎯
 
-| Team Member             | email address                 | Video link   |
-| :---------------------: | :---------------------------: | :----------: |
-| Igor Bak                | <baxwork88@gmail.com>           | 283          |
-| Alejandro Castellanos   | <alexcastellanos29@gmail.com>   | 283          |
-| Faisal Khan             | <fa.khan@alumni.utoronto.ca>    |https://vimeo.com/1068619321/2e0a44818f?share=copy|
-| Hassan Saade            | <saadehassan@hotmail.com>       | 283          |
-| Anna Wong               | <annawong.work@gmail.com>       | 283          |
+| Team Member             | Email Address                   | Video Link                                                              |
+|-------------------------|----------------------------------|------------------------------------------------------------------------|
+| Igor Bak                | <baxwork88@gmail.com>            | 283                                                                    |
+| Alejandro Castellanos   | <alexcastellanos29@gmail.com>    | 283                                                                    |
+| Faisal Khan             | <fa.khan@alumni.utoronto.ca>     | [Watch](https://vimeo.com/1068619321/2e0a44818f)                       |
+| Hassan Saade            | <saadehassan@hotmail.com>        | 283                                                                    |
+| Anna Wong               | <annawong.qea@gmail.com>         | 283                                                                    |

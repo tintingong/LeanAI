@@ -282,12 +282,13 @@ AdaBoost           2.290862   7.710425  0.857116  0.177951            0.857432
 ElasticNet         2.861452  11.469599  0.787454  0.238231            0.788342
 ```
 
-🚀 **This project will help individuals monitor their health and make informed decisions!** 🎯
+🚀 **This project will help individuals monitor their health and make informed decisions!. Morover it will introduce decreases in operatiopnals costs for companies** 🎯
 
-| Team Member             | email address                 | Video link   |
-| :---------------------: | :---------------------------: | :---------------------------------------------------------------------------------------------------------: |
-| Igor Bak                | baxwork88@gmail.com           | 283                                                                                                         |
-| Alejandro Castellanos   | alexcastellanos29@gmail.com   | 283                                                                                                         |
-| Faisal Khan             | fa.khan@alumni.utoronto.ca    | 283                                                                                                         |
-| Hassan Saade            | saadehassan@hotmail.com       | 283                                                                                                         |
-| Anna Wong               | annawong.qea@gmail.com        | 283                                                                                                          |
+| Team Member             | Email Address                 | Video Link   |
+| :---------------------: | :---------------------------: | :--------------------------------------------------------------------------: |
+| Igor Bak                | <baxwork88@gmail.com>         | 283                                                                          |
+| Alejandro Castellanos   | <alexcastellanos29@gmail.com> | 283                                                                          |
+| Faisal Khan             | <fa.khan@alumni.utoronto.ca>  | [Vimeo](https://vimeo.com/1068619321/2e0a44818f?share=copy)                  |
+| Hassan Saade            | <saadehassan@hotmail.com>     | 283                                                                          |
+| Anna Wong               | <annawong.qea@gmail.com>      | 283                                                                          |
+

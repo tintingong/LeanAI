@@ -131,7 +131,7 @@ Overall, the dataset highlights strong relationships between various body measur
 ![image](https://github.com/user-attachments/assets/c816a08d-d563-433d-beb5-e7f5fe8ce83e)
 
 **Data Processing**
-Since the time limtation and the dataset is relatively simple and small, we decide to use as it is to start with a simple linear regression model initiatlly 
+Since the time limtation and the dataset is relatively simple and small, we decide to use as it is to start with a simple linear regression model initiatlly
 
 ### **Model Development**
 
